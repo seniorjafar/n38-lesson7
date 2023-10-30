@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+      display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+  background: rgba(19, 145, 206, 0.7);
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 1121px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- common end --- */
+
+/* --- navbar start --- */
+
+nav,
+.nav-menu,
+.nav-list {
+  display: flex;
+}
+nav {
+  align-items: center;
+  justify-content: space-between;
+  padding: 49px 160px 107px;
+  background: rgba(19, 145, 206, 0.7);
+}
+nav a {
+  display: flex;
+  align-items: center;
+}
+nav a > h1 {
+  color: #25468a;
+  font-size: 24.683px;
+  font-weight: 700;
+}
+nav > a img {
+  width: 54px;
+}
+nav ul {
+  gap: 32px;
+  align-items: center;
+  color: #25468a;
+}
+ul li > a {
+  color: #25468a;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-menu {
+  /* align-items: center; */
+  gap: 92px;
+}
+ul > .nav-item-1 > a {
+  color: #fff;
+}
+
+.nav-register-btn {
+  margin-left: 32px;
+  padding: 9px 18px;
+  font-size: 16px;
+  border-radius: 24px;
+  background: #fff;
+}
+
+/* --- navbar end --- */
+
+/* --- works start --- */
+#home .container {
+  background: rgba(19, 145, 206, 0.7);
+}
+#home {
+  display: flex;
+  width: 1121px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home .container {
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+}
+.rek h1 {
+  color: #25468a;
+  font-size: 92px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.rek h3 {
+  color: #25468a;
+  margin-bottom: 42px;
+}
+.rek button {
+  display: flex;
+
+  padding: 10px 55px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 26px;
+  background: #f7ba0e;
+  margin-bottom: 138px;
+}
+.rek p {
+  color: #25468a;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin-bottom: 24px;
+}
+
+.deel {
+  display: flex;
+  justify-content: end;
+}
+.win {
+  display: flex;
+  justify-content: end;
+  margin-left: -460px;
+  margin-top: 15px;
+}
+.deel img {
+  width: 500px;
+  height: 401px;
+  flex-shrink: 0;
+}
+.win img {
+  width: 420px;
+  height: 320px;
+  flex-shrink: 0;
+}
+.monitor {
+  display: flex;
+  justify-content: end;
+  margin-left: -385px;
+  margin-top: 15px;
+}
+.monitor img {
+  width: 350.241px;
+  height: 273.425px;
+  flex-shrink: 0;
+}
+main{
+      width: 1400px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+ .works {
+  display: flex;
+  width: 1121px;
+  background: #062b4a;
+  justify-items: center;
+  text-align: center;
+} 
+
+ .works-header {
+  text-align: center;
+
+} 
+
+ .works-row {
+  width: 1121px;
+  display: flex;
+
+  gap: 32px;
+  padding: 176px 160px;
+  background: #e9f5ff;
+  align-items: center;
+} 
+
+.work-card {
+  width: 352px;
+  height: 189px;
+  padding: 68px 34px;
+  border-radius: 8px;
+  text-align: center;
+  background: #1391ce;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.88px;
+}
+
+.work-card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  height: 165px;
+  width: 165px;
+  background: rgba(138, 170, 220, 0.3);
+}
+
+/* --- works end --- */
+/* ---box start--- */
+.boxs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+width: 1400px;
+align-items: flex-start;
+}
+.box-plan{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+  color: #1391CE;
+font-size: 36px;
+font-weight: 100;
+line-height: 121.3%;
+letter-spacing: 0.36px;
+background-color: #e9f5ff;
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
+   background-color: #e9f5ff;
+}
+.box-text{
+text-align: center;
+padding-bottom: 101px;
+padding-left: 42px;
+}
+.box-text p{
+  display: flex;
+  width: 448px;
+  height: 300px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+
+}
+.box-text h3{
+  color: #25468A;
+  margin-top: 10px;
+font-size: 16px;
+font-weight: 400;
+line-height: 134.3%;
+letter-spacing: 0.16px;
+text-transform: uppercase;
+}
+.box-text h2{
+  color: #1391CE;
+font-size: 32px;
+font-weight: 700;
+line-height: 134.3%;
+letter-spacing: 0.32px;
+margin-bottom: 32px;
+}
+.leyka{
+border: 2px solid white;
+width: 700px;
+height: 5px;
+background: #1391ce;
+width: 1121px;
+}
+.button{
+  display: flex;
+  flex-wrap: wrap;
+    background: #1391ce;
+  width: 1121px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---box end--- */
